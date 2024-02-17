@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes</title>
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link rel="stylesheet" href="/note/css/note.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo-name">
+        <div class="logo-image">
+          <img src="/note/img/book-bookmark-svgrepo-com.svg" alt="" />
+        </div>
+        <span class="logo_name">Dululu</span>
+      </div>
+
+      <div class="menu-items">
+        <ul class="nav-links">
+          <li>
+            <a href="#">
+              <i class="uil uil-estate"></i>
+              <span class="link-name">Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="uil uil-files-landscapes"></i>
+              <span class="link-name">Content</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="uil uil-thumbs-up"></i>
+              <span class="link-name">Like</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="uil uil-notes"></i>
+              <span class="link-name">Notes</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="uil uil-star"></i>
+              <span class="link-name">Favourite</span>
+            </a>
+          </li>
+        </ul>
+
+        <ul class="logout-mode">
+          <li>
+            <a href="#">
+              <i class="uil uil-signout"></i>
+              <button class="link-name" id="buttonSignout">Logout</button>
+            </a>
+          </li>
+
+          <li class="mode">
+            <a href="#">
+              <i class="uil uil-moon"></i>
+              <span class="link-name">Dark Mode</span>
+            </a>
+
+            <div class="mode-toggle">
+              <span class="switch"></span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="dashboard">
+      <div class="top">
+        <i class="uil uil-bars sidebar-toggle"></i>
+
+        <div class="search-box">
+          <i class="uil uil-search"></i>
+          <input type="text" placeholder="Search here...." />
+        </div>
+
+        <img src="/note/img/profile-circle-svgrepo-com.svg" alt="" />
+      </div>
+
+      <form class="form">
+        <div>
+          <label for="todo" class="form_label"></label>
+          <input
+            class="form_input"
+            type="text"
+            id="todo"
+            name="to-do"
+            size="30"
+            placeholder="Add a new task"
+            required
+          />
+          <button class="button"><span>+</span></button>
+        </div>
+      </form>
+
+      <div>
+        <ul class="toDoList">
+        </ul>
+      </div>
+
+      
+      
+    </section>
+
+    <script type="module" src="/js/firebase.js"></script>
+    <script type="module" src="/js/todo.js"></script>
+    <script src="/note/js/note.js"></script>
+  </body>
+</html>
