@@ -64,11 +64,9 @@ To run this project locally, follow these steps:
    - Organize notes by categories or tags.
 
 ## **Screenshots**
-
-Here's a sneak peek of the My Notes app in action:
-<img width="500" alt="Skärmavbild 2024-05-16 kl  23 53 56" src="https://github.com/Cakewhale97/NotesWebsite/assets/121439769/19afba74-ba5a-4ec3-9108-45575fd0135a">
-<img width="500" alt="Skärmavbild 2024-05-16 kl  23 54 07" src="https://github.com/Cakewhale97/NotesWebsite/assets/121439769/56c83197-d116-4c1b-a8b1-7c9df4f9b771">
-<img width="500" alt="Skärmavbild 2024-05-16 kl  23 54 28" src="https://github.com/Cakewhale97/NotesWebsite/assets/121439769/abad3d69-c20d-42ec-a67b-7ff690a4b827">
+<img width="300" alt="Skärmavbild 2024-05-16 kl  23 53 56" src="https://github.com/Cakewhale97/NotesWebsite/assets/121439769/19afba74-ba5a-4ec3-9108-45575fd0135a">
+<img width="300" alt="Skärmavbild 2024-05-16 kl  23 54 07" src="https://github.com/Cakewhale97/NotesWebsite/assets/121439769/56c83197-d116-4c1b-a8b1-7c9df4f9b771">
+<img width="300" alt="Skärmavbild 2024-05-16 kl  23 54 28" src="https://github.com/Cakewhale97/NotesWebsite/assets/121439769/abad3d69-c20d-42ec-a67b-7ff690a4b827">
 
 
 
